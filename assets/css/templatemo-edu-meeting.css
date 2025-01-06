@@ -1499,7 +1499,7 @@ section.meetings-page {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 140px;
+  padding-top: 60px;
   padding-bottom: 0px;
 }
 
@@ -1513,13 +1513,16 @@ section.meetings-page .filters li {
   color: #a12c2f;
   background-color: #fff;
   padding: 11px 30px;
+  /* padding-top: 10px; */
   display: inline-block;
   border-radius: 22px;
   font-weight: 600;
   text-transform: uppercase;
   transition: all .3s;
   cursor: pointer;
-  margin: 0px 3px;
+  /* margin: 0px 3px; */
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
 }
 
 section.meetings-page .filters ul li.active,
